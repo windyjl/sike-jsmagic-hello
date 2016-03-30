@@ -1,9 +1,8 @@
-export function greet(name,zishu){
+function greet(name,zishu){
 	if(zishu){
 		return "I'm not change yet";
 	}else {
 		return "caonima,"+name;
 	}
 }
-export var abc;
-abc = "def";
+module.exports = greet;
